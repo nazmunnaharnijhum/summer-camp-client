@@ -6,7 +6,8 @@
         "image": "https://i.ibb.co/ngyzKXW/young-woman-doing-natarajasana-exercise.jpg",
         "availableSeats": 50,
         "price": 14.7,
-        "enrolledStudents": 34
+        "enrolledStudents": 34,
+        "status": "approved"
     },
     {
         "_id": "642c155b2c4774f05c36eeb9",
@@ -15,7 +16,8 @@
         "image": "https://i.ibb.co/MZgrDKK/young-woman-doing-warrior-ii-exercise-close-up.jpg",
         "availableSeats": 52,
         "price": 14.7,
-        "enrolledStudents": 20
+        "enrolledStudents": 20,
+        "status": "denied"
     },
     {
         "_id": "642c155b2c4774f05c36ee7c",
@@ -24,7 +26,8 @@
         "image": "https://i.ibb.co/gJ943vY/full-shot-man-doing-warrior-pose-indoor.jpg",
         "availableSeats": 40,
         "price": 14.5,
-        "enrolledStudents": 15
+        "enrolledStudents": 15,
+        "status": "denied"
     },
     {
         "_id": "642c155b2c4774f05c36ee88",
@@ -33,7 +36,8 @@
         "image": "https://i.ibb.co/3Br7TnD/young-woman-doing-ustrasana-exercise.jpg",
         "availableSeats": 0,
         "price": 12.5,
-        "enrolledStudents": 25
+        "enrolledStudents": 25,
+        "status": "pending"
     },
     {
         "_id": "642c155b2c4774f05c36ee7a",
@@ -42,7 +46,8 @@
         "image": "https://i.ibb.co/3CthR7T/young-blonde-woman-sportswear-is-meditating-yoga-mat-with-closed-eyes.jpg",
         "availableSeats": 25,
         "price": 14.5,
-        "enrolledStudents": 25
+        "enrolledStudents": 25,
+        "status": "pending"
     },
     {
         "_id": "642c155b2c4774f05c36ee8c",
@@ -51,7 +56,8 @@
         "image": "https://i.ibb.co/x3JnQyb/woman-stretching-mat.jpg",
         "availableSeats": 20,
         "price": 12.5,
-        "enrolledStudents": 40
+        "enrolledStudents": 40,
+        "status": "active"
     },
     {
         "_id": "642c155b2c4774f05c36ee94",
@@ -60,7 +66,8 @@
         "image": "https://i.ibb.co/3BxfRYB/woman-variation-matsyasana-pose-lotus-legs-white-studio.jpg",
         "availableSeats": 0,
         "price": 12.5,
-        "enrolledStudents": 22
+        "enrolledStudents": 22,
+        "status": "active"
     },
     {
         "_id": "642c155b2c4774f05c36ee9e",
@@ -69,7 +76,8 @@
         "image": "https://i.ibb.co/2jkpN8R/young-slim-beautiful-attractive-woman-doing-yoga-morning-sunrise-by-sea-healthy-lifestyle.jpg",
         "availableSeats": 37,
         "price": 12.9,
-        "enrolledStudents": 42
+        "enrolledStudents": 42,
+        "status": "active"
     },
     {
         "_id": "642c155b2c4774f05c36eea6",
@@ -78,7 +86,8 @@
         "image": "https://i.ibb.co/99CJGZ0/yoga-man-young-man-doing-yoga-loft-sunrise.jpg",
         "availableSeats": 50,
         "price": 13.5,
-        "enrolledStudents": 41
+        "enrolledStudents": 41,
+        "status": "active"
     },
     {
         "_id": "642c155b2c4774f05c36eeaf",
@@ -87,7 +96,8 @@
         "image": "https://i.ibb.co/fCDw8pL/side-view-woman-outdoors-nature-doing-yoga.jpg",
         "availableSeats": 30,
         "price": 12.5,
-        "enrolledStudents": 21
+        "enrolledStudents": 21,
+        "status": "active"
     },
     {
         "_id": "642c155b2c4774f05c36ee89",
@@ -96,7 +106,8 @@
         "image": "https://i.ibb.co/0QLvdhG/man-stretching-while-doing-yoga-outdoors.jpg",
         "availableSeats": 25,
         "price": 13.5,
-        "enrolledStudents": 33
+        "enrolledStudents": 33,
+        "status": "active"
     },
     {
         "_id": "642c155b2c4774f05c36ee8a",
@@ -105,7 +116,8 @@
         "image": "https://i.ibb.co/rfsxWRk/yoga-woman-young-woman-doing-yoga-morning.jpg",
         "availableSeats": 24,
         "price": 12.5,
-        "enrolledStudents": 16
+        "enrolledStudents": 16,
+        "status": "active"
     },
     {
         "_id": "642c155b2c4774f05c36ee96",
@@ -114,7 +126,8 @@
         "image": "https://i.ibb.co/VxD5HGg/full-shot-woman-doing-yoga-outside.jpg",
         "availableSeats": 34,
         "price": 9.5,
-        "enrolledStudents": 36
+        "enrolledStudents": 36,
+        "status": "active"
     },
     {
         "_id": "642c155b2c4774f05c36ee81",
@@ -123,6 +136,7 @@
         "image": "https://i.ibb.co/8dXJfPp/yoga-and-nature-01.jpg",
         "availableSeats": 44,
         "price": 10.5,
-        "enrolledStudents": 48
+        "enrolledStudents": 48,
+        "status": "active"
     }
 ]

@@ -12,7 +12,7 @@ const SingleClass = ({cls}) => {
     <p>Available Seats: {availableSeats}</p>
     <p className="text-[#e79e37]">Price: ${price}</p>
     <div className="card-actions">
-      <button className="btn btn-primary">Buy Now</button>
+      <button className="btn bg-[#e79e37]">Select class</button>
     </div>
   </div>
 </div>
