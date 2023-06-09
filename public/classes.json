@@ -57,7 +57,7 @@
         "availableSeats": 20,
         "price": 12.5,
         "enrolledStudents": 40,
-        "status": "active"
+        "status": "approved"
     },
     {
         "_id": "642c155b2c4774f05c36ee94",
@@ -67,17 +67,17 @@
         "availableSeats": 0,
         "price": 12.5,
         "enrolledStudents": 22,
-        "status": "active"
+        "status": "approved"
     },
     {
         "_id": "642c155b2c4774f05c36ee9e",
         "name": "Power Yoga",
         "instructorName": "James Anderson",
-        "image": "https://i.ibb.co/2jkpN8R/young-slim-beautiful-attractive-woman-doing-yoga-morning-sunrise-by-sea-healthy-lifestyle.jpg",
+        "image": "https://i.ibb.co/2jkpN8R/young-slim-beautiful-attrapproved-woman-doing-yoga-morning-sunrise-by-sea-healthy-lifestyle.jpg",
         "availableSeats": 37,
         "price": 12.9,
         "enrolledStudents": 42,
-        "status": "active"
+        "status": "approved"
     },
     {
         "_id": "642c155b2c4774f05c36eea6",
@@ -87,7 +87,7 @@
         "availableSeats": 50,
         "price": 13.5,
         "enrolledStudents": 41,
-        "status": "active"
+        "status": "approved"
     },
     {
         "_id": "642c155b2c4774f05c36eeaf",
@@ -97,7 +97,7 @@
         "availableSeats": 30,
         "price": 12.5,
         "enrolledStudents": 21,
-        "status": "active"
+        "status": "approved"
     },
     {
         "_id": "642c155b2c4774f05c36ee89",
@@ -107,7 +107,7 @@
         "availableSeats": 25,
         "price": 13.5,
         "enrolledStudents": 33,
-        "status": "active"
+        "status": "approved"
     },
     {
         "_id": "642c155b2c4774f05c36ee8a",
@@ -117,7 +117,7 @@
         "availableSeats": 24,
         "price": 12.5,
         "enrolledStudents": 16,
-        "status": "active"
+        "status": "approved"
     },
     {
         "_id": "642c155b2c4774f05c36ee96",
@@ -127,7 +127,7 @@
         "availableSeats": 34,
         "price": 9.5,
         "enrolledStudents": 36,
-        "status": "active"
+        "status": "approved"
     },
     {
         "_id": "642c155b2c4774f05c36ee81",
@@ -137,6 +137,6 @@
         "availableSeats": 44,
         "price": 10.5,
         "enrolledStudents": 48,
-        "status": "active"
+        "status": "approved"
     }
 ]
