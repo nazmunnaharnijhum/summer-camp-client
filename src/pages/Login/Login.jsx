@@ -1,9 +1,14 @@
+import { useContext } from "react";
 import { useForm } from "react-hook-form";
+import { AuthContext } from "../../providers/AuthProvider";
+import { Link } from "react-router-dom";
 
 const Login = () => {
+    const {signIn} = useContext(AuthContext);
     const { register, handleSubmit, formState: { errors } } = useForm();
     const onSubmit = data => {
         console.log(data);
+        // signIn(email, password)
     };
 
     return (
@@ -36,6 +41,7 @@ const Login = () => {
                 <button className="btn bg-[#e79e37]">Login</button>
               </div>
             </form>
+            <p className="m-4"><small>New Here? <Link to="/signup">Create an account</Link></small></p>
           </div>
         </div>
       </div>
