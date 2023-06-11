@@ -1,11 +1,15 @@
 import { FaCalendarAlt, FaHome,  FaPeopleArrows,  FaShoppingCart, FaUsers, FaWallet, FaWpforms } from "react-icons/fa";
 import { NavLink, Outlet } from "react-router-dom";
 import useCart from "../hooks/useCart";
+import useAdmin from "../hooks/useAdmin";
+import useInstructor from "../hooks/useInstructor";
 
 const Dashboard = () => {
     const [cart] = useCart();
 //TODO: load data from the server to have dynamic isAdmin based on Data
-    const  isAdmin = true;
+    // const  isAdmin = true;
+    const [isAdmin] = useAdmin();
+    const [isInstructor] = useInstructor();
 
     return (
         <div className="drawer lg:drawer-open ">
@@ -29,6 +33,14 @@ const Dashboard = () => {
         </li>
       <li><NavLink to="/dashboard/allusers"><FaUsers></FaUsers> Manage users</NavLink></li>
      
+        </> :  isInstructor ? <>
+        <li>
+        <NavLink to="/dashboard/mycart"><FaShoppingCart></FaShoppingCart> Add a Class<span className="badge bg-pink-300">+{cart?.length || 0}</span>
+        </NavLink>
+        
+        </li>
+      <li><NavLink to="/dashboard/enrolled"><FaCalendarAlt></FaCalendarAlt> My Classes</NavLink></li>
+     
         </> : <>
         <li>
         <NavLink to="/dashboard/mycart"><FaShoppingCart></FaShoppingCart> My Selected Classes<span className="badge bg-pink-300">+{cart?.length || 0}</span>
@@ -38,6 +50,7 @@ const Dashboard = () => {
       <li><NavLink to="/dashboard/enrolled"><FaCalendarAlt></FaCalendarAlt> My Enrolled Classes</NavLink></li>
       <li><NavLink to="/dashboard/myhistory"><FaWallet></FaWallet>Payment History</NavLink></li>
         </>
+       
       }
       
       

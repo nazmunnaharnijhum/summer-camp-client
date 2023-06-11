@@ -4,7 +4,7 @@ import { AuthContext } from "../../../providers/AuthProvider";
 import { FaShoppingCart } from "react-icons/fa";
 import useCart from "../../../hooks/useCart";
 
-const NavBar = () => {
+const NavBar = ({toggleDarkMode}) => {
   const {user, logOut} = useContext(AuthContext);
   const [cart] = useCart();
 
@@ -57,7 +57,8 @@ const NavBar = () => {
     </ul>
   </div>
   <div className="navbar-end">
-    <a className="btn">Button</a>
+  <button className="toggle " onClick={toggleDarkMode}>
+        </button>
   </div>
 </div>
         </>
