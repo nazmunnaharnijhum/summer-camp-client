@@ -20,7 +20,7 @@ const MyCart = () => {
             confirmButtonText: 'Yes, delete it!'
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/carts/${cls._id}`, {
+                fetch(`https://summer-camp-school-assignment12-server.vercel.app/carts/${cls._id}`, {
                     method: 'DELETE'
                 })
                     .then(res => res.json())
@@ -54,7 +54,7 @@ const MyCart = () => {
                     <thead>
                         <tr>
                             <th>#</th>
-                            <th>Food</th>
+                            <th>Class</th>
                             <th>Class Name</th>
                             <th>Price</th>
                             <th>Action</th>

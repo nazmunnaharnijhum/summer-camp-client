@@ -23,7 +23,7 @@ const SingleClass = ({ cls }) => {
         availableSeats,
         email: user.email,
       };
-      fetch("http://localhost:5000/carts", {
+      fetch("https://summer-camp-school-assignment12-server.vercel.app/carts", {
         method: "POST",
         headers: {
           "content-type": "application/json",

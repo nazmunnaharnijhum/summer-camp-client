@@ -6,7 +6,7 @@ import Cover from "../Shared/Cover/Cover";
 const Instructors = () => {
     const [instructor, setInstructor] = useState([]);
     useEffect (() => {
-        fetch('http://localhost:5000/instructors')
+        fetch('https://summer-camp-school-assignment12-server.vercel.app/instructors')
         .then(res => res.json())
         .then(data => {
           
