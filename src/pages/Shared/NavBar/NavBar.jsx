@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import {  Link } from "react-router-dom";
 import { AuthContext } from "../../../providers/AuthProvider";
-import { FaShoppingCart } from "react-icons/fa";
+
 import useCart from "../../../hooks/useCart";
 
 const NavBar = ({toggleDarkMode}) => {
@@ -18,11 +18,9 @@ const NavBar = ({toggleDarkMode}) => {
     <li><Link to="/">Home</Link></li>
         <li><Link to="/instructors">Instructors</Link></li>
         <li><Link to="/classes">Classes</Link></li>
-        <li><Link to="/secret">Secret</Link></li>
-        <li><Link to="/dashboard/mycart">
+        <li><Link to="/dashboard">
         <button className="btn ">
-  <FaShoppingCart></FaShoppingCart>
-  <div className="badge bg-[#e79e37]">+{cart?.length || 0}</div>
+  Dashboard
 </button></Link></li>
         {
           user ? <>

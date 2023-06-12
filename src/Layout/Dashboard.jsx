@@ -27,7 +27,7 @@ const Dashboard = () => {
       {
         isAdmin ? <>
         <li>
-        <NavLink to="/dashboard/mycart"><FaWpforms></FaWpforms> Manage Classes
+        <NavLink to="/dashboard/manageclasses"><FaWpforms></FaWpforms> Manage Classes
         </NavLink>
         
         </li>
