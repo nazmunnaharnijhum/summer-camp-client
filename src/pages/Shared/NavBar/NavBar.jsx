@@ -2,11 +2,10 @@ import { useContext } from "react";
 import {  Link } from "react-router-dom";
 import { AuthContext } from "../../../providers/AuthProvider";
 
-import useCart from "../../../hooks/useCart";
 
 const NavBar = ({toggleDarkMode}) => {
   const {user, logOut} = useContext(AuthContext);
-  const [cart] = useCart();
+  
 
   const handleLogOut = () => {
     logOut()
@@ -18,14 +17,15 @@ const NavBar = ({toggleDarkMode}) => {
     <li><Link to="/">Home</Link></li>
         <li><Link to="/instructors">Instructors</Link></li>
         <li><Link to="/classes">Classes</Link></li>
-        <li><Link to="/dashboard">
-        <button className="btn ">
-  Dashboard
-</button></Link></li>
+        
         {
           user ? <>
-          
-          <button onClick={handleLogOut} className="btn btn-ghost">Log Out</button>
+          <li><Link to="/dashboard">
+        <button className="btn ">Dashboard</button></Link></li>
+          <li className="tooltip" data-tip={user.displayName}>
+          <img style={{width:'60px'}} src={user.photoURL} />
+          </li>
+          <li><button onClick={handleLogOut} className="btn btn-ghost">Log Out</button></li>
           </> : 
           <>
             <li><Link to="/login">Login</Link></li>

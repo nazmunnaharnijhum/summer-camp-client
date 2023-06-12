@@ -2,8 +2,9 @@ import { CardElement, useElements, useStripe } from "@stripe/react-stripe-js";
 import { useEffect, useState } from "react";
 import useAxiosSecure from "../../../hooks/useAxiosSecure";
 import useAuth from "../../../hooks/useAuth";
+import './CheckoutForm.css'
 
-const CheckoutForm = ({price}) => {
+const CheckoutForm = ({cart, price}) => {
     const stripe = useStripe();
     const elements = useElements();
     const {user} = useAuth();
@@ -70,7 +71,25 @@ const CheckoutForm = ({price}) => {
         if (paymentIntent.status === 'succeeded') {
             setTransactionId(paymentIntent.id);
         
+            const payment = {
+                email: user?.email,
+                transactionId: paymentIntent.id,
+                price,
+                date: new Date(),
+                quantity: cart.length,
+                cartItems: cart.map(item => item._id),
+                clsItems: cart.map(item => item.clsId),
+                status: 'service pending',
+                itemNames: cart.map(item => item.name)
+            }
 
+            axiosSecure.post('/payments', payment)
+            .then(res => {
+                console.log(res.data);
+                if (res.data.result.insertedId) {
+                    // display confirm
+                }
+            })
         }
     }
 

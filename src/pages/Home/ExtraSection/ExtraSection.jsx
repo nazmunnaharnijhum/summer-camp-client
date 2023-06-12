@@ -14,7 +14,7 @@ const ExtraSection = () => {
                     <p className="text-2xl">ASTANGA YOGA</p>
                     <img className="my-4" style={{borderRadius:"50%", width:"200px", height:"200px"}} src="https://i.ibb.co/rfsxWRk/yoga-woman-young-woman-doing-yoga-morning.jpg" alt="" />
                     <p className="text-green-400">-----------------------------------------</p>
-                    <p className="text-green-400">_________________________________________</p>
+                    <p className="text-green-400">____________________________________</p>
                     <p >
                     Yoga is a holistic practice combining <br /> physical postures, breathing <br /> exercises, and meditation for overall <br /> well-being.
                     </p>
@@ -25,7 +25,7 @@ const ExtraSection = () => {
                     <p className="text-2xl">HATHA YOGA</p>
                     <img className="my-4" style={{borderRadius:"50%", width:"200px", height:"200px"}} src="https://i.ibb.co/fCDw8pL/side-view-woman-outdoors-nature-doing-yoga.jpg" alt="" />
                     <p className="text-green-400">-----------------------------------------</p>
-                    <p className="text-green-400">_________________________________________</p>
+                    <p className="text-green-400">____________________________________</p>
                     <p >
                     Yoga is a holistic practice combining <br /> physical postures, breathing <br /> exercises, and meditation for overall <br /> well-being.
                     </p>
@@ -36,7 +36,7 @@ const ExtraSection = () => {
                     <p className="text-2xl">IYENGAR YOGA</p>
                     <img className="my-4" style={{borderRadius:"50%", width:"200px", height:"200px"}} src="https://i.ibb.co/0QLvdhG/man-stretching-while-doing-yoga-outdoors.jpg" alt="" />
                     <p className="text-green-400">-----------------------------------------</p>
-                    <p className="text-green-400">_________________________________________</p>
+                    <p className="text-green-400">____________________________________</p>
                     <p >
                     Yoga is a holistic practice combining <br /> physical postures, breathing <br /> exercises, and meditation for overall <br /> well-being.
                     </p>
@@ -47,7 +47,7 @@ const ExtraSection = () => {
                     <p className="text-2xl">KUNDALINI YOGA</p>
                     <img className="my-4" style={{borderRadius:"50%", width:"200px", height:"200px"}} src="https://i.ibb.co/VxD5HGg/full-shot-woman-doing-yoga-outside.jpg" alt="" />
                     <p className="text-green-400">-----------------------------------------</p>
-                    <p className="text-green-400">_________________________________________</p>
+                    <p className="text-green-400">_____________________________</p>
                     <p >
                     Yoga is a holistic practice combining <br /> physical postures, breathing <br /> exercises, and meditation for overall <br /> well-being.
                     </p>
