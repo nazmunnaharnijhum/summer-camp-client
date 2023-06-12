@@ -8,10 +8,12 @@ import Classes from "../pages/Classes/Classes";
 import Login from "../pages/Login/Login";
 import SignUp from "../pages/SignUp/SignUp";
 import PrivateRoute from "./PrivateRoute";
-import Secret from "../pages/Shared/Secret/Secret";
 import Dashboard from "../Layout/Dashboard";
 import MyCart from "../pages/Dashboard/MyCart/MyCart";
 import AllUsers from "../pages/Dashboard/AllUsers/AllUsers";
+import AddClass from "../pages/Dashboard/AddClass/AddClass";
+import InstructorRoute from "./InstructorRoute";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
 
 
  export const router = createBrowserRouter([
@@ -38,12 +40,6 @@ import AllUsers from "../pages/Dashboard/AllUsers/AllUsers";
         {
           path: 'signup',
           element: <SignUp></SignUp>
-        },
-        {
-          path: 'secret',
-          element: <PrivateRoute>
-            <Secret></Secret>
-          </PrivateRoute>
         }
       ]
     },
@@ -58,7 +54,15 @@ import AllUsers from "../pages/Dashboard/AllUsers/AllUsers";
         {
           path: 'allusers',
           element: <AllUsers></AllUsers>
+        },
+        {
+          path: 'addClass',
+          element: <InstructorRoute><AddClass></AddClass></InstructorRoute>
         }
       ]
+    },
+    {
+        path: '*',
+        element: <ErrorPage></ErrorPage>
     }
   ]);

@@ -35,11 +35,11 @@ const Dashboard = () => {
      
         </> :  isInstructor ? <>
         <li>
-        <NavLink to="/dashboard/mycart"><FaShoppingCart></FaShoppingCart> Add a Class<span className="badge bg-pink-300">+{cart?.length || 0}</span>
+        <NavLink to="/dashboard/addClass"><FaShoppingCart></FaShoppingCart> Add a Class
         </NavLink>
         
         </li>
-      <li><NavLink to="/dashboard/enrolled"><FaCalendarAlt></FaCalendarAlt> My Classes</NavLink></li>
+      <li><NavLink to="/dashboard/myclasses"><FaCalendarAlt></FaCalendarAlt> My Classes</NavLink></li>
      
         </> : <>
         <li>
