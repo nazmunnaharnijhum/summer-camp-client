@@ -9,7 +9,7 @@ Website features:
 <li>CRUD operations has been implemented</li>
 <li>The section titles are dynamic</li>
 <li>Can add a class</li>
-<li>The dashboard is dynamic depends on users</li>
+<li>The dashboard is dynamic depends on users.</li>
 Used packages/ technology name:
 <li>"@emotion/react": "^11.11.1"</li>
 <li>@fortawesome/fontawesome-free": "^6.4.0"</li>
